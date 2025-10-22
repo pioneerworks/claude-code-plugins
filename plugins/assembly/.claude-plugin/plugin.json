@@ -1,0 +1,7 @@
+{
+    "name": "assembly",
+    "version": "1.0.0",
+    "description": "/assembly Ticket# → Planner → Executor → Reviewer → Finalize",
+    "author": { "name": "Homebase" }
+}
+  
