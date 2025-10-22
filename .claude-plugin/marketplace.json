@@ -9,7 +9,7 @@
     "plugins": [
       {
         "name": "assembly",
-        "source": { "source": "github", "repo": "pioneerworks/claude-code-plugins/plugins/assembly" },
+        "source": { "source": "github", "repo": "pioneerworks/claude-code-plugins/tree/main/plugins/assembly" },
         "description": "Ticket → Planner → Executor → Reviewer → Finalize via Atlassian MCP (low-SP Jira issues + automatable tasks)",
         "version": "1.0.0",
         "author": { "name": "Caleb Bae", "email": "cbae@joinhomebase.com" },
