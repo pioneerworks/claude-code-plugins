@@ -6,12 +6,12 @@ Automates end-to-end implementation of small Jira tickets (≤2 SP) through a th
 
 1. **Add the plugin marketplace:**
    ```bash
-   /plugin marketplace add pioneerworks/claude-code-plugins
+   /plugin marketplace add pioneerworks/homebase-plugin-marketplace
    ```
 
 2. **Install the assembly plugin:**
    ```bash
-   /plugin install assembly@claude-code-plugins
+   /plugin install assembly@homebase-plugin-marketplace
    ```
 
 3. **Configure Atlassian MCP:**
