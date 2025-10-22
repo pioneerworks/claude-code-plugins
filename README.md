@@ -10,13 +10,7 @@ A curated collection of plugins extending Claude Code's capabilities with specia
 /plugin marketplace add pioneerworks/claude-code-plugins
 ```
 
-### 2. Browse Available Plugins
-
-```bash
-/plugin list claude-code-plugins
-```
-
-### 3. Install a Plugin
+### 2. Install a Plugin
 
 ```bash
 /plugin install <plugin-name>@claude-code-plugins
