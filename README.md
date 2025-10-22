@@ -7,18 +7,18 @@ A curated collection of plugins extending Claude Code's capabilities with specia
 ### 1. Add the Marketplace
 
 ```bash
-/plugin marketplace add pioneerworks/claude-code-plugins
+/plugin marketplace add pioneerworks/homebase-plugin-marketplace
 ```
 
 ### 2. Install a Plugin
 
 ```bash
-/plugin install <plugin-name>@claude-code-plugins
+/plugin install <plugin-name>@homebase-plugin-marketplace
 ```
 
 For example:
 ```bash
-/plugin install assembly@claude-code-plugins
+/plugin install assembly@homebase-plugin-marketplace
 ```
 
 ## Available Plugins
@@ -30,7 +30,7 @@ Automates end-to-end implementation of small Jira tickets (≤2 SP) through a th
 **Requirements:** Atlassian MCP server, packs-based Rails project
 
 ```bash
-/plugin install assembly@claude-code-plugins
+/plugin install assembly@homebase-plugin-marketplace
 /assembly PROJ-123
 ```
 
@@ -58,12 +58,12 @@ Access plugin-specific help:
 
 Check for updates:
 ```bash
-/plugin update claude-code-plugins
+/plugin update homebase-plugin-marketplace
 ```
 
 Update a specific plugin:
 ```bash
-/plugin update assembly@claude-code-plugins
+/plugin update assembly@homebase-plugin-marketplace
 ```
 
 ## Removing Plugins
@@ -75,7 +75,7 @@ Uninstall a plugin:
 
 Remove the marketplace:
 ```bash
-/plugin marketplace remove pioneerworks/claude-code-plugins
+/plugin marketplace remove pioneerworks/homebase-plugin-marketplace
 ```
 
 ## Contributing
@@ -114,7 +114,7 @@ plugins/
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/pioneerworks/claude-code-plugins/issues)
+- **Issues**: [GitHub Issues](https://github.com/pioneerworks/homebase-plugin-marketplace/issues)
 - **Claude Code Help**: `/help` or [docs.claude.com](https://docs.claude.com/claude-code)
 - **Feedback**: Open a discussion or issue in this repository
 
